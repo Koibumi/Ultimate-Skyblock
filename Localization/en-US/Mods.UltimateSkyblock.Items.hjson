@@ -200,7 +200,6 @@ CorruptBiomeCoreItem: {
 		Resembles a large, grotesque worm
 		Spreads the corruption to nearby blocks
 		[c/EE5252:This is currently disabled due to issues in multiplayer. It will be fixed soon.]
-
 		'''
 }
 

@@ -52,9 +52,9 @@ GuidebookItem: {
 	DisplayName: 空岛指南
 	Tooltip:
 		'''
-		左键单击使用
-		提供有关此模组的各种更改和添加的信息。
-		如果你弄不懂玩法，可以看看如何回到正轨。
+		左键单击使用物品以浏览
+		提供有关本模组中各种更改和新增内容的信息
+		如果你游玩时迷失了方向，可以看看如何回到正轨
 		'''
 }
 
@@ -62,9 +62,12 @@ AutoExtractor: {
 	DisplayName: 自动提炼机
 	Tooltip:
 		'''
-		自动提炼放入其存储中的物品。
-		要打开库存，请右键单击物品的左上角。
-		你可以把箱子放在旁边，让它把提炼出的物品存放进去
+		自动提炼放入其存储槽位中的物品
+		要打开库存，请右键单击物块的左上角
+		你可以将箱子放在旁边，让它把提炼出的物品存放进去
+		提炼速度：100%
+		提炼产出：100%
+		并行提炼数量：1
 		'''
 }
 
@@ -72,11 +75,12 @@ AutoExtractorTier2: {
 	DisplayName: 二级自动提炼机
 	Tooltip:
 		'''
-		自动提炼放入其存储中的物品。
-		生产速度提高20%
-		产生两倍的产出
-		要打开库存，请右键单击物品的左上角。
-		你可以把箱子放在旁边，让它把提炼出的物品存放进去
+		自动提炼放入其存储槽位中的物品
+		要打开库存，请右键单击物块的左上角
+		你可以将箱子放在旁边，让它把提炼出的物品存放进去
+		提炼速度：150%
+		提炼产出：100%
+		并行提炼数量：1
 		'''
 }
 
@@ -84,12 +88,12 @@ AutoExtractorTier3: {
 	DisplayName: 三级自动提炼机
 	Tooltip:
 		'''
-		自动提炼放入其存储中的物品。
-		生产速度提高50%
-		产生3倍的产出
-		每次提炼输入2倍量的物块
-		要打开库存，请右键单击物品的左上角。
-		你可以把箱子放在旁边，让它把提炼出的物品存放进去
+		自动提炼放入其存储槽位中的物品
+		要打开库存，请右键单击物块的左上角
+		你可以将箱子放在旁边，让它把提炼出的物品存放进去
+		提炼速度：200%
+		提炼产出：200%
+		并行提炼数量：2
 		'''
 }
 
@@ -97,12 +101,12 @@ AutoExtractorTier4: {
 	DisplayName: 四级自动提炼机
 	Tooltip:
 		'''
-		自动提炼放入其存储中的物品。
-		生产速度提高75%
-		产生4倍的产出
-		每次提炼输入2倍量的物块
-		要打开库存，请右键单击物品的左上角。
-		你可以把箱子放在旁边，让它把提炼出的物品存放进去
+		自动提炼放入其存储槽位中的物品
+		要打开库存，请右键单击物块的左上角
+		你可以将箱子放在旁边，让它把提炼出的物品存放进去
+		提炼速度：300%
+		提炼产出：300%
+		并行提炼数量：2
 		'''
 }
 
@@ -110,37 +114,37 @@ AutoExtractorTier5: {
 	DisplayName: 五级自动提炼机
 	Tooltip:
 		'''
-		自动提炼放入其存储中的物品。
-		生产速度提高84%
-		产生8倍的产出
-		每次提炼输入3倍量的物块
-		要打开库存，请右键单击物品的左上角。
-		你可以把箱子放在旁边，让它把提炼出的物品存放进去
-		"提炼机的巅峰"
+		自动提炼放入其存储槽位中的物品
+		要打开库存，请右键单击物块的左上角
+		你可以将箱子放在旁边，让它把提炼出的物品存放进去
+		提炼速度：600%
+		提炼产出：500%
+		并行提炼数量：3
+		“提炼机的巅峰”
 		'''
 }
 
 Deepstone: {
-	DisplayName: 深板岩
-	Tooltip: 地下深处发现的一块粗糙冰冷的石头
+	DisplayName: 深层石块
+	Tooltip: 地下深处发现的粗糙冰冷的石头
 }
 
 DeepstoneBrick: {
-	DisplayName: 深板岩砖
-	Tooltip: 由深板岩凿成的一块又细又坚固的物块
+	DisplayName: 深层石砖
+	Tooltip: 由深板岩凿成的精致而坚固的砖块
 }
 
 DeepstoneChest: {
-	DisplayName: 深板岩箱
+	DisplayName: 深岩箱
 	Tooltip: 用非常坚固的深板岩制成的装饰性箱子
 }
 
 DeepstoneChestKey: {
-	DisplayName: 深板岩钥匙
+	DisplayName: 深岩钥匙
 	Tooltip:
 		'''
 		一把镀金的大钥匙
-		可用于打开上锁的深板岩箱
+		打开一个锁住的深岩箱
 		'''
 }
 
@@ -150,8 +154,8 @@ FogCloud1: {
 }
 
 Slate: {
-	DisplayName: 岩石
-	Tooltip: 一种坚硬的层状石头，随着时间的推移会变得易碎
+	DisplayName: 板岩
+	Tooltip: 一种坚硬的层状石头，随着时间的推移变脆
 }
 
 VolcanicStone: {
@@ -165,22 +169,22 @@ PlanteraAltarItem: {
 }
 
 Glimmercap: {
-	// DisplayName: Glimmercap
-	/* Tooltip:
+	DisplayName: 光帽菇
+	Tooltip:
 		'''
-		Shines brightly deep underground
-		Can be used to craft items for better vision
-		When brewed into a potion, the effects become more potent
-		When consumed, causes the user to glow for a short period
-		''' */
+		在深岩洞穴中闪闪发亮
+		能用于合成强化视觉能力的物品
+		酿成药水时，效果会变得更强
+		直接吃掉它会让玩家短暂发光
+		'''
 }
 
 GlimmerTonic: {
-	DisplayName: 微光药剂
+	DisplayName: 烁光补剂
 	Tooltip:
 		'''
-		提供4分钟的失明免疫
-		使用者在药水有效期间会发出明亮的光芒
+		对失明减益免疫
+		使玩家发出明亮的光芒
 		'''
 }
 
@@ -188,8 +192,8 @@ MiningLantern: {
 	DisplayName: 奥秘灯笼
 	Tooltip:
 		'''
-		"传言使用后会被魔法传送到某处"
-		在第一次获取后可以找商人购买
+		“传言使用后会被魔法传送到某处”
+		在背包中时可以在商人处重复购买
 		'''
 }
 
@@ -197,10 +201,9 @@ CorruptBiomeCoreItem: {
 	DisplayName: 腐化群系核心
 	Tooltip:
 		'''
-		一条巨大的蠕虫
+		形似一只巨大而怪异的蠕虫
 		将附近物块蔓延为腐化
 		[c/EE5252:由于多人游戏中的问题，此功能目前已禁用。该问题很快将会修好。]
-
 		'''
 }
 
@@ -218,7 +221,7 @@ ForestBiomeCoreItem: {
 	DisplayName: 森林群系核心
 	Tooltip:
 		'''
-		"散发着青草的香味"
+		“散发着青草的香气”
 		净化周围的方块
 		[c/EE5252:由于多人游戏中的问题，此功能目前已禁用。该问题很快将会修好。]
 		'''
@@ -228,7 +231,7 @@ HallowBiomeCoreItem: {
 	DisplayName: 神圣群系核心
 	Tooltip:
 		'''
-		"你是落在我世界里的一束光……"
+		“你是落在我世界里的一束光……”
 		将附近物块蔓延为神圣
 		[c/EE5252:由于多人游戏中的问题，此功能目前已禁用。该问题很快将会修好。]
 		'''
@@ -238,7 +241,7 @@ JungleBiomeCoreItem: {
 	DisplayName: 丛林群系核心
 	Tooltip:
 		'''
-		"散发着泥土的香味"
+		“散发着泥土的香气”
 		将附近物块蔓延为丛林
 		[c/EE5252:由于多人游戏中的问题，此功能目前已禁用。该问题很快将会修好。]
 		'''
@@ -248,7 +251,7 @@ MushroomBiomeCoreItem: {
 	DisplayName: 发光蘑菇群系核心
 	Tooltip:
 		'''
-		"我们中出了一个真菌"
+		“我们中出了一个真菌”
 		附近裸露的泥土会转化为蘑菇草
 		丛林草会转化为蘑菇草
 		[c/EE5252:由于多人游戏中的问题，此功能目前已禁用。该问题很快将会修好。]
@@ -259,7 +262,7 @@ SnowBiomeCoreItem: {
 	DisplayName: 雪原群系核心
 	Tooltip:
 		'''
-		"你周围的空气正在变冷"
+		将你周围的空气变冷
 		附近的水会转化为薄冰，在一定时间后转化为冰块
 		泥土会转化成雪块
 		[c/EE5252:由于多人游戏中的问题，此功能目前已禁用。该问题很快将会修好。]
@@ -268,21 +271,21 @@ SnowBiomeCoreItem: {
 
 Deepsoil: {
 	DisplayName: 深层泥土
-	Tooltip: 用于微光蘑菇生长
+	Tooltip: 能长出光帽菇
 }
 
 HardenedDeepstone: {
-	DisplayName: 硬化深板岩
-	Tooltip: 在极强压力下形成的更坚硬的深板岩
+	DisplayName: 硬化深层石块
+	Tooltip: 在极强压力下形成的更坚硬的深层石块
 }
 
 DeepstoneBrickWall: {
-	DisplayName: 深板岩砖墙
+	DisplayName: 深层石砖墙
 	Tooltip: 专为堡垒准备的坚硬墙体
 }
 
 DeepstoneBrickBeam: {
-	DisplayName: 深板岩砖梁
+	DisplayName: 深层石砖梁
 	Tooltip: ""
 }
 
@@ -292,7 +295,7 @@ Coffin: {
 }
 
 DecorativeGlimmerTonic: {
-	DisplayName: 装饰用微光药剂
+	DisplayName: 装饰用烁光补剂
 	Tooltip: ""
 }
 
@@ -307,5 +310,5 @@ DesertBiomeCoreItem: {
 
 SunshinePaintingItem: {
 	DisplayName: 阳光
-	Tooltip: "'你是落在我世界里的一束光……'"
+	Tooltip: “你是落在我世界里的一束光……”
 }
