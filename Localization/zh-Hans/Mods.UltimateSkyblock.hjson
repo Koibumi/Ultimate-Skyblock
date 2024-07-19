@@ -1,35 +1,35 @@
 Projectiles: {
-	// StoneBombProjectile.DisplayName: Stone Bomb Projectile
-	// StickyStoneBombProjectile.DisplayName: Sticky Stone Bomb Projectile
-	// StickySnowBombProjectile.DisplayName: Sticky Snow Bomb Projectile
-	// StickySandBombProjectile.DisplayName: Sticky Sand Bomb Projectile
-	// StickyFossilBombProjectile.DisplayName: Sticky Fossil Bomb Projectile
-	// StickyClayBombProjectile.DisplayName: Sticky Clay Bomb Projectile
-	// SnowBombProjectile.DisplayName: Snow Bomb Projectile
-	// SandBombProjectile.DisplayName: Sand Bomb Projectile
-	// FossilBombProjectile.DisplayName: Fossil Bomb Projectile
-	// ClayBombProjectile.DisplayName: Clay Bomb Projectile
+	StoneBombProjectile.DisplayName: 石炸弹
+	StickyStoneBombProjectile.DisplayName: 粘性石炸弹
+	StickySnowBombProjectile.DisplayName: 粘性雪炸弹
+	StickySandBombProjectile.DisplayName: 粘性沙炸弹
+	StickyFossilBombProjectile.DisplayName: 粘性化石炸弹
+	StickyClayBombProjectile.DisplayName: 粘性粘土炸弹
+	SnowBombProjectile.DisplayName: 雪炸弹
+	SandBombProjectile.DisplayName: 沙炸弹
+	FossilBombProjectile.DisplayName: 化石炸弹
+	ClayBombProjectile.DisplayName: 粘土炸弹
 }
 
 Buffs: {
 	GlimmerBuff: {
-		// DisplayName: Glimmer Sight
-		// Description: Prevents darkness from affecting you
+		DisplayName: 烁光真视
+		Description: 黑暗无法阻碍你的视线
 	}
 
 	Fear: {
-		// DisplayName: Fear
-		// Description: You are frozen in fear
+		DisplayName: 恐惧
+		Description: 你陷入恐惧，如坠冰窟
 	}
 }
 
 GenericLocalizedText: {
-	// LanternCooldown: On cooldown: {0} seconds
-	// LanternCooldownFinished: Cooldown finished
-	// ReturnTooltip: Use to return to the main world
+	LanternCooldown: 冷却中: {0} 秒
+	LanternCooldownFinished: 冷却完毕
+	ReturnTooltip: 使用时返回主世界
 }
 
-/* TranslationWarning:
+TranslationWarning:
 	'''
 	[DO NOT TRANSLATE THIS PART]
 	This is to any translators that may be reading this. (I didn't know how to do 'comments' in hjson.)
@@ -44,249 +44,252 @@ GenericLocalizedText: {
 	and test it in-game.
 
 	You can also just eyeball it, and attempt to make each line the same length, but this may be harder to do.
-	''' */
+	'''
 
 LocalizedPages: {
 	PageNames: {
-		// Intro: Intro
-		// TableOfContents: Table of Contents
-		// Progression: Progression
-		// Fishing: Fishing
-		// Hardmode: Hardmode
-		// MiningSubworld: Mining Dimension
-		// PlanteraSubworld: Plantera Dimension
-		// Shimmer: Shimmer
-		// BiomeCores: Biome Cores
-		// LiquidDuplication: Liquid Duplication
+		Intro: 介绍
+		TableOfContents: 目录
+		Progression: 流程
+		Fishing: 钓鱼
+		Hardmode: 困难模式
+		MiningSubworld: 采矿维度
+		PlanteraSubworld: 世纪之花维度
+		Shimmer: 微光
+		BiomeCores: 生物群系核心
+		LiquidDuplication: 复制液体
 	}
 
-	/* IntroPage:
+	IntroPage:
 		'''
-		[c/FFB23D:Welcome to Skyblock!]
-		This is a book to help you progress, as well as provide some tips for you.
-		To use the book, click the [c/FFABAB:Left (<)] or [c/FFABAB:Right (>)] arrows to scroll through pages.
-		You can purchase this again from the Merchant at any time, in case you lose it.
+		[c/FFB23D:欢迎来到空岛！]
+		这是一本帮助你推进流程的书，并且书中也为你准备了一些实用的小提示。
+		使用此书时，按下[c/FFABAB:左(<)]或[c/FFABAB:右(>)]箭头翻页。
+		假如你弄丢了这本书，你随时可以从商人那里再买一本。
 
-		On the left is a list of buttons with icons. These buttons are for quickly switching to important pages.
-		The book next to the left arrow will pull up an official wiki page related to the current page.
-		If it's grayed out, it means there's no wiki available.
-		This book is also still in development, so I will be making it look nicer.
-		You can change the keybinds for opening/closing the book, and scrolling left & right from the controls menu.
-		They will be unbound by default, so if you want quick control, make sure to set them.
+		左侧是一串带有标记的书签，这些书签可以帮助你快速跳转至重要的页面。
+		左箭头旁边的书可以快速唤起与当前页面关联的官方 Wiki 网页。
+		如果它是灰色的。那意味着没有可用的 Wiki 页面。
+		这本书仍处于开发阶段，所以将来我会把它做得更加完善。
+		在控件菜单中，你可以更改打开/关闭本书以及左/右翻页的快捷键。
+		这些控件默认是未绑定状态，所以如果你想用的方便，一定要记得去设置一下。
 
-		[c/A8577E: Special thanks to:]
-		[c/DB4D8F: TommyTsunami - Islands]                              [c/A8577E: andro951 - Stone Generator & Extraction logic]
-		[c/DB4D8F: otterly - Most spriting]
-		[c/A8577E: GabeHasWon - Slate & Hardened Deepstone]
+		[c/A8577E: 特别鸣谢：]
+		[c/DB4D8F: TommyTsunami - 岛屿]                              [c/A8577E: andro951 - 刷石机 & 提炼机代码逻辑]
+		[c/DB4D8F: otterly - 更多贴图]
+		[c/A8577E: GabeHasWon - 板岩 & 硬化深层石块]
 
-		[c/FF9191:This mod is still fairly new, meaning there may be some bugs or missing features.]
-		''' */
-	/* TableOfContents:
+		[c/FF9191:此模组刚诞生不久，可能存在一些bug或是缺失的功能。]
 		'''
-		 -=-= Table of Contents =-=-
-		 1 : Introduction
-		 2 : Table of Contents
-		 3 - 4 : Progression
-		 5 : Hardmode
-		 6 : Fishing
-		 7 : Mining Dimension
-		 8 : Shimmer
-		 9 : Biome Cores
-		 10 : Liquids
-		''' */
-	/* Progression1:
+	TableOfContents:
 		'''
-		To begin, you should chop some[i:9]wood. 
-		Trees will grow much faster, meaning you will be able to gather a substantial amount of wood.
-		After you gather some wood, you should also get some[i:3]stone from the [c/ABCAFF:stone generator] on the  side of
-		the island. Mining the stone in between the lava and water will provide an infinite source of stone, since lava
-		and water will now generate stone if separated by one block.
-
-		Throughout the world, there are islands scattered, each with chests and life crystals.
-		In the sky, there are planetoids that have rare stuff such as ores and demon hearts/shadow orbs.
-		You should try and find these islands and planetoids, as they will provide you with the loot necessary to
-		progress. If you find an[i:997]Extractinator, they will be very useful for getting gems, and processing raw
-		materials into new ones.
-
-		[c/FF9797:Don't forget that fishing will let you obtain tons of new loot that wouldn't be possible to get in skyblock]
-		There is a page later in the book that goes more in-depth about fishing.
-
-		Acorns will drop more frequently from trees, so you don't really need to worry about losing too many acorns.
-		You should be able to gain a very large amount of wood and acorns quickly.
-		''' */
-	/* Progression2:
+		 -=-= 目录 =-=-
+		 1 : 介绍
+		 2 : 目录
+		 3 - 4 : 流程
+		 5 : 困难模式
+		 6 : 钓鱼
+		 7 : 采矿维度
+		 8 : 微光
+		 9 : 生物群系核心
+		 10 : 液体
 		'''
-		Once you have a decent supply of blocks, start moving out to the left and right.
-		Make sure to look above and below your platform for any islands that might be out of sight.
-		There are 4 other forest islands, each with a chest containing basic underground golden chest loot.
-		You can find useful stuff such as [i:50][c/FFC080:magic mirrors],[i:166][c/FFC080:bombs],[i:28][c/FFC080:potions], and [i:19][c/FFC080:bars.]
-
-		A good place to look for [i:29][c/C8426B:life crystals] is on [c/92E67D:Jungle Islands] and the [c/5D4DEB:Mushroom Island.]
-		There is also a lot of golden chests on the Mushroom Island, making it a good spot to get some loot.
-		You can locate these islands on the map, since there are now icons for each island/important structure.
-
-		When fighting bosses such as King Slime or the Eater of Worlds, you will need some solid ground.
-		The Eater of Worlds will go into the void unless there are solid blocks, and King Slime will just despawn.
-		Many grounded bosses will require solid ground, or they will fall into the void and dissapear.
-
-		The dungeon is found on the far left or right of the map, and the mushroom island on the opposite side.
-		To access the dungeon, you must first defeat skeletron. You are then able to enter the big doors into
-		a subworld, where you can find similar loot to a natural dungeon.
-		The mechanic cannot be found here, and instead is able to move in once skeletron is defeated.
-		This is only temporary, due to some syncing issues with the subworld.
-		''' */
-	/* Hardmode:
+	Progression1:
 		'''
-		On entering hardmode, you may notice that the [c/94FFFF:Hallowed Islands] now spawn enemies, and crystals are breakable.
-		You should be notified of this by a message in chat.
+		首先，你应当砍一些[i:9]木头。
+		树木将以极快的速度生长，这意味着你可以获取大量的木头。
+		在获取了一些木头后，你应当前往岛屿左侧，通过[c/ABCAFF:刷石机]获取一些[i:3]石头。
+		只要不断挖掘熔岩与水中间产生的石头，就能获得无穷无尽的石头资源。
+		熔岩与水间隔一格放置便会生成石头。
 
-		If you haven't found them already, there are [c/36D22B:chlorophyte planetoids] below the jungle islands.
-		This is so you have a source of chlorophyte, since the entire world is now empty.
+		世界各处散布着多个岛屿，每个岛屿上都有箱子和生命水晶。
+		而在天空高处有一些小行星，它们包裹着稀有的东西，比如矿石和猩红之心/暗影珠。
+		你应当尝试搜寻这些岛屿和小行星，因为它们会为你提供流程中必需的战利品。
+		假如你找到了一个[i:997]提炼机，它可以帮助你获取宝石，并将一些原材料加工为新材料。
 
-		Hardmode ores can be obtained through fishing, or from the Deepstone Biome in the Mining Subworld.
 
-		For the Destroyer, you don't need to have any solid ground to fight it on, unlike the Eater of Worlds.
+		[c/FF9797:别忘了钓鱼可以让你成吨获取空岛稀缺的物资。]
+		书中稍后会有专门的页面深入讲解钓鱼部分。
 
-		To fight plantera, head to the large arena generated below the jungle. There should be an altar
-		in the middle, which will summon plantera when right-clicking.
-		You can use this as many times as you want, so there's no need to farm bulbs unless you want to.
-
-		For your convenience, an artificial temple is supplied. You may need to make your own temple biome
-		with some of the blocks provided in chests inside the temple to spawn some enemies to farm [i:1293]power cells.
-		The temple should be located below the chlorophyte planetoids, next to the Plantera arena.
-		Be careful with these blocks, as once they are placed, they cannot be destroyed.
-		''' */
-	/* Fishing:
+		橡实的掉落概率大幅提升了，所以你着实不必担心遗失过多橡实。
+		你应该可以快速获取大量木头和橡实。
 		'''
-		You can obtain many useful items from fishing, such as [i:365]ores, [i:706]bars, [i:2310]potion fish, [i:4406]crates, and more.
-		Crates are very important, as depending on the biome you are in, they will provide loot similar to what
-		you would get from a chest in that biome.
-
-		Here are some small tips:
-		- [i:2339]Tin cans can be used at an extractinator, and will return very good early-game bait
-		- [i:4608]Chum buckets, which are dropped by blood moon enemies, will significantly boost your fishing power
-		- Lake size heavily affects loot obtained
-		- The angler is now able to move in at any time, since there isn't an ocean for him to spawn at
-
-		Lake size is calculated by the width of the top row 
-		of liquid tiles, and everything below. Tiles nearby 
-		that aren't exposed to the surface won't count.
-		To create a good fishing area, 300 connected tiles
-		of water are needed, but 75 minimum will work. The
-		loot you get will be worse, but it will still let you fish.
-		To create an ocean, you need 1,001 tiles of water,
-		and it needs to be near the outer edge of the world.
-		''' */
-	/* MiningSubworld:
+	Progression2:
 		'''
-		This dimension is called a "subworld". Subworlds are like dimensions, except they also function as a new world.
-		Everything is independent from the main world, meaning events & other modded content might not sync.
-		[c/FF5E5E:You are also unable to spawn any bosses while in this subworld.]
-		The purpose of this subworld is to allow you to mine resources to use in skyblock. Things will be present here
-		that are either hard to get or impossible to obtain from the main world.
-		In the lower parts of the subworld, you will encounter a new biome, called the Deepstone.
-		It's very dark and dangerous in the Deepstone biome, however you can encounter a new structure called the
-		Deepstone Bunker. Useful loot is present in the chests here, such as potions, accessories, and more.
-		Hardmode ores, such as Adamantite and Titanium can be found down here. Because of this, there are harder
-		enemies, and the environment is more treacherous.
+		当你有充足的物块供应后，你就可以尝试向左或向右探索。
+		请务必关注平台上下两侧是否存在视野外的岛屿。
+		除出生岛外还有4座森林岛屿，每个岛屿都有一个箱子，包含了常规地下金箱的战利品。
+		你可以找到一些有用的东西，例如[i:50][c/FFC080:魔镜]，[i:166][c/FFC080:炸弹]，[i:28][c/FFC080:药水]，以及[i:19][c/FFC080:锭]。
 
-		While you are in the deepstone biome, you will be affected
-		with blindness. To cure this, equip a blindfold, which can
-		be found in chests inside of the Deepstone Bunkers.
-		Alternatively, collect some of the mushrooms found naturally
-		and craft them into a Glimmer Tonic. You will get 4 minutes of
-		immunity against blindness, and will not be inflicted with it.
-		''' */
-	/* Shimmer:
+		寻找[i:29][c/C8426B:生命水晶]的好地方是[c/92E67D:丛林岛屿]和[c/5D4DEB:蘑菇岛屿]。
+		蘑菇岛上还有许多金箱，你可以从中获取大量战利品。
+		你可以在地图上确认各个岛屿的位置，因为所有岛屿和重要建筑都有独特的地图标识。
+
+		当你与史莱姆王或是世界吞噬怪这样的Boss战斗时，你会需要一些实心物块充当地面。
+		假如没有实心地面，世界吞噬怪会直接坠入虚空，而史莱姆王则会脱战。
+		许多依赖地面的Boss都需要使用实心物块搭建平地，否则它们会失足坠落并消失。
+
+		地牢生成在地图左侧或右侧遥远的尽头，而蘑菇岛屿会生成在另一侧，与地牢相对。
+		想要进入地牢，你必须先击败骷髅王，随后你就能通过地牢的大门进入一个子世界。
+		子世界与自然生成的地牢大致相同。
+		机械师不会生成在地牢的子世界中，只要你击败了骷髅王，她就会立即入住。
+		这只是暂时的，由于一些子世界的同步问题，所以不得不这么做。
 		'''
-		Here are some useful tips for items that can be shimmered
-		- Anvils, which can be bought from the merchant, can be shimmered into iron bars
-		- Cans of Worms can be shimmered into [i:3093]Herb Bags for more potion ingredients
-		- Shimmering Dynasty wood results in an infinite supply of normal wood, as long as you have money to buy it
-		- Any fruit will result in [i:5342]Ambrosia, which gives permanent boosts to mining, tile and wall placement speed
-		- You can interchange water, lava, and honey buckets
-		- Gem critters can be turned into 
-
-		You should try and use the environment to your advantage.
-		Each island has a wide palette of blocks that can be de-crafted into various items.
-
-		Shimmer can be found on the Hallowed Islands, which spawn on the same side as the dungeon.
-		You can find them by looking on the map for the Hallow Marker, which indicates the main island.
-		There is a limited amount of shimmer, so don't let it all drain into the void!
-		''' */
-	/* BiomeCores:
+	Hardmode:
 		'''
-		Biome cores are large objects that appear on one of the islands for each biome.
-		They create a marker on the map, to help you find the different islands.
-		[c/EE5252:Currently, this part is disabled, but I am looking to fix it.]
-		Each biome core has different attributes, listed as the following:
+		当你推进至困难模式后，[c/94FFFF:神圣岛屿]就会开始生成敌怪，而水晶也可以挖掘了。
+		聊天栏中应当有一条对话告知你这部分内容。
 
-		Forest - Purifies nearby blocks
-		Hallow - Spreads hallow
-		Corruption/Crimson - Spreads corruption/crimson
-		Snow - Turns nearby water into ice & converts dirt into snow
-		Jungle - Spreads the jungle
-		Glowing Mushroom - Turns grass/exposed mud into mushroom grass
-		Desert - Turns dirt into sand, and stone into sandstone
+		如果你还没找到[c/36D22B:叶绿矿小行星]的话，它们就在丛林岛屿下方。
+		尽管整个世界都空荡荡的，你还是获得了固定的叶绿矿资源。
 
-		[c/A21526:These are not re-obtainable, so do not lose them!]
-		''' */
-	/* LiquidDuplication:
+		困难模式的矿石可以通过钓鱼获取，或是在采矿维度中的深层岩洞群系寻找。
+
+		迎战毁灭者时，你不需要建造与世界吞噬怪战斗类似的实心地面。
+
+		当你要挑战世纪之花时，请前往丛林下方的大型竞技场。
+		场地中央应当有一个祭坛，右键即可召唤世纪之花。
+		祭坛可以随意使用，没有次数限制，所以你也没有必要去做世纪之花灯泡农场，除非你真的很想做。
+
+		出于便捷考虑，我们提供了一个人造神庙。
+		你可能需要使用宝箱中提供的神庙砖自己建造神庙环境，以获得[i:1293]丛林蜥蜴电池。
+		神庙位于叶绿矿小行星的下方，与世纪之花竞技场相邻。
+		放置神庙砖前请三思，在击败石巨人前你都无法破坏它们。
 		'''
-		Liquids are very useful, and can be utilized in many ways.
-		Water, honey, and lava can be used for fishing, and shimmer can be used for decrafting.
+	Fishing:
+		'''
+		你可以通过钓鱼获取许多有用的物品，例如[i:365]矿石，[i:706]矿锭，[i:2310]药水鱼，[i:4406]宝匣，等等。
+		宝匣至关重要，环境宝匣产物取决于你钓鱼时所处的生物群系。
+		它会产出对应环境中宝箱的战利品。
 
-		All liquids except for shimmer can be duplicated with just a bucket.
-		To do this, all you need to do is place the liquid above a hammered tile, then pick it back up after a bit.
-		With water, you can just hold left click and it will duplicate it and constantly give it back to you.
-		For lava and honey, you need to time it, with lava being after about 3 seconds, and honey being 5.
-		This can be utilized to get any type of honey, create large fishing pools, and more.
-		You can automate this process with some simple wiring and pumps.
-		''' */
+		这里有一些小提示:
+		- [i:2339]锡罐可以在提炼机处转换为优质的早期鱼饵。
+		- [i:4608]鱼饵桶，掉落自血月的钓鱼敌怪，可以为你提供相当可观的渔力加成。
+		- 鱼池的尺寸对渔获影响很大。
+		- 由于没有海洋供渔夫生成，现在他随时都可以入住。
+
+		鱼池尺寸会从水体的顶层开始计算，随后向下计入所有
+		下方的液体。
+		因此相邻但顶层被物块遮挡的水体不会算入尺寸。
+		你至少需要300格水体来建造一个优质鱼池，但鱼池只需
+		要75格便能钓鱼。
+		鱼池尺寸不足300时渔获会变差，但仍能钓鱼。
+		若要建造海洋环境的鱼池，则需要至少1001格水体，并且
+		需要建造在世界边缘两侧。
+		'''
+
+
+
+	MiningSubworld:
+		'''
+		此维度被称为"子世界"。子世界与维度类似，但它作为一个全新的世界存在。
+		一切都独立于主世界，这意味着事件和一些模组修改不会同步。
+		[c/FF5E5E:你也无法在子世界中召唤任何Boss。]
+		子世界存在的目的是让你可以挖掘资源，并在空岛世界中使用。
+		子世界中的物品在空岛要么很难获取，要么完全无法获取。
+		在子世界较低的位置，你会找到一种全新的生物群系，我们称之为深层岩洞群系。
+		深层岩洞群系中异常阴暗危险。但你可以在这里找到一个名为深岩堡垒的新结构。
+		堡垒的宝箱中含有大量实用的战利品，诸如药水，饰品，等等。
+		你也可以在这里找到精金钛金等困难模式矿石。
+		正因如此，这里的敌怪更加强大，战利品也更加丰厚。
+
+		当你身处深层岩洞群系时，你会持续受到黑暗减益。
+		穿戴蒙眼布可以免受黑暗减益影响。
+		蒙眼布可以在深岩堡垒的箱子中找到。
+		或者你可以收集一些自然生长的特殊蘑菇，将它制成烁光补剂。
+		烁光补剂会提供持续4分钟的黑暗免疫效果。
+		在此持续期间你不会受到黑暗影响。
+		'''
+	Shimmer:
+		'''
+		这里有一些小提示，列举了适合微光转化的物品
+		- 砧，可以从商人处大量购入，并分解为金属锭
+		- 蠕虫罐可以微光嬗变为[i:3093]草药袋，获取更多药水素材
+		- 只要你有充足的资金，王朝木的微光嬗变可以无限产出普通木头
+		- 任意水果均可微光嬗变为[i:5342]珍馐，可以提升玩家的挖掘速度与物块/墙的放置速度
+		- 你可以循环转换水桶，熔岩桶与蜂蜜桶
+		- 宝石生物可以微光嬗变为宝石 
+
+		你应当尝试利用环境来发挥你的优势。
+		每个岛屿都含有多种物块，可以分解并重新制作成其他物品。
+
+		微光可以在神圣岛屿找到，它生成在地牢同侧。
+		你可以在地图上寻找神圣标记来定位神圣岛屿，它会标明主要岛屿。
+		微光的量是有限的，所以不要把它们全都排进虚空！
+		'''
+	BiomeCores:
+		'''
+		生物群系核心是一个大型物品，每个生物群系的主岛上均有对应核心。
+		它会在地图上显示为对应的标记，帮助你寻找不同生物群系的岛屿。
+		[c/EE5252:这部分功能暂时未能实现，我正在想办法修复bug。]
+		每个生物群系核心都有不同的属性功能，如下所示：
+
+		森林： - 净化附近的物块
+		神圣 - 传播神圣环境
+		腐化/猩红 - 传播腐化/猩红环境
+		雪原 - 将附近的水转化为冰雪块 & 将土块转化为雪块
+		丛林 - 传播丛林环境
+		发光蘑菇 - 将草皮/裸露的泥块转化为蘑菇草皮
+		沙漠 - 将土块转化为沙块，将石块转化为砂岩
+
+		[c/A21526:这些核心都无法重复获取，一定不要弄丢它们！]
+		'''
+	LiquidDuplication:
+		'''
+		液体功能繁多，能以多种方式利用。
+		水，蜂蜜，以及熔岩均能用于钓鱼，而微光用于分解物品。
+
+		微光以外的所有液体都可以用桶复制。
+		想要复制液体，你只需要将一桶液体倒在锤过的物块上，并在短暂间隔后再将它舀起。
+		用这个方法复制水时，你只需要按住左键，它便会快速复制并再次舀起。
+		而复制蜂蜜或熔岩时，你需要耗费较多时间，熔岩大约在倒下3秒后舀起，蜂蜜则是5秒。
+		这可以用来获得任何类型的液体，建造大型鱼池，等等。
+		你可以通过简单的电路与泵完成上述操作，全自动复制液体。
+		'''
 }
 
 Biomes: {
 	DeepstoneBiome: {
-		// DisplayName: Deepstone Biome
-		// TownNPCDialogueName: the Deepstone Biome
+		DisplayName: 深层岩洞生物群系
+		TownNPCDialogueName: 深层岩洞生物群系
 	}
 }
 
 NPCs: {
-	// DeepstoneBat.DisplayName: Deepstone Bat
-	// Deepknight.DisplayName: Deepknight
-	// ReDead.DisplayName: ReDead
+	DeepstoneBat.DisplayName: 深岩蝙蝠
+	Deepknight.DisplayName: 深岩骑士
+	ReDead.DisplayName: ReDead
 
 	ColtColossal: {
-		// DisplayName: Colt Colossal
+		DisplayName: Colt Colossal
 
 		TownNPCMood: {
-			// Content: I am content.
-			// NoHome: I hate not having a home.
-			// FarFromHome: I am too far from home.
-			// LoveSpace: I love having so much space.
-			// DislikeCrowded: I dislike how crowded I am.
-			// HateCrowded: I hate how crowded I am.
-			// LikeNPC_Princess: I like {NPCName}.
-			// Princess_LovesNPC: I like {NPCName}.
+			Content: 我很满意。
+			NoHome: 我痛恨居无定所的日子。
+			FarFromHome: 我已经离家太远了。
+			LoveSpace: 我很高兴能拥有这么宽阔的私人空间。
+			DislikeCrowded: 我不喜欢附近拥挤的人群。
+			HateCrowded: 我厌恶附近拥挤的人群。
+			LikeNPC_Princess: 我喜欢{NPCName}。
+			Princess_LovesNPC: 我喜欢{NPCName}。
 		}
 	}
 }
 
 Keybinds: {
-	// CloseBook.DisplayName: Close Book
-	// PageRightKeybind.DisplayName: Page Right Keybind
-	// PageLeftKeybind.DisplayName: Page Left Keybind
-	// "Open Wiki Page.DisplayName": Open  Wiki  Page
-	// "Close Book.DisplayName": Close  Book
-	// "Page Right.DisplayName": Page  Right
-	// "Page Left.DisplayName": Page  Left
-	// "Open Guidebook.DisplayName": Open  Guidebook
+	CloseBook.DisplayName: 合上的书
+	PageRightKeybind.DisplayName: 向右翻页按键
+	PageLeftKeybind.DisplayName: 向左翻页按键
+	"Open Wiki Page.DisplayName": 打开Wiki页面
+	"Close Book.DisplayName": 合上书本
+	"Page Right.DisplayName": 向右翻页
+	"Page Left.DisplayName": 向左翻页
+	"Open Guidebook.DisplayName": 打开引导之书
 }
 
 Notifications: {
-	// JoinWorldNotif: Welcome to Skyblock!
-	// MiningSWNotif: Into Darkness
-	// DayProgressNotification: Day {0}
-	// DungeonSWNotif: Enter the Dungeon
+	JoinWorldNotif: 欢迎来到空岛！
+	MiningSWNotif: 进入黑暗
+	DayProgressNotification: 第{0}天
+	DungeonSWNotif: 进入地牢
 }
